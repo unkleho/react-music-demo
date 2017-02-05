@@ -1,0 +1,19 @@
+  .piano-roll__note {
+    display: flex;
+
+  }
+
+  .piano-roll__note__steps {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .piano-roll__note__step {
+    display: flex;
+    flex: 1;
+    margin: 1px;
+    height: 1em;
+    width: 1em;
+    background-color: rgba(0, 0, 0, 0.1);
+  }

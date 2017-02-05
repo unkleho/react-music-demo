@@ -1,0 +1,25 @@
+{
+  "name": "react-music-demo",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://unkleho.github.io/react-music-demo",
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "watch-test": "./node_modules/mocha/bin/mocha src/**/*.test.js --reporter spec",
+    "deploy" : "npm run build&&gh-pages -d build"
+  }
+}

@@ -1,0 +1,22 @@
+.song {
+  margin: 1em auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.interface {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+
+  .interface__label {
+    margin-right: 0.5em;
+  }
+
+  .interface__box {
+    display: flex;
+  }
+
+    .interface__box .button {
+    }
